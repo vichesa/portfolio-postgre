@@ -21,7 +21,7 @@ const Home = () => {
         <div className="w-full place-self-center text-center lg:text-left">
           <div className="text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-4">
             <div className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-800">
-              Hello, I'm{" "}
+              Hello, I'm
             </div>
             <TypeAnimation
               className="text-white"
