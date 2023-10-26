@@ -24,8 +24,6 @@ const GuestBook = async () => {
 
   return (
     <section>
-      {/* <div className='my-5 flex flex-col gap-4'> */}
-      {/* <h1 className='text-3xl font-bold'>Todo List App</h1> */}
       <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-10">
         <div>
           <h1 className="text-4xl font-bold text-center lg:text-left">

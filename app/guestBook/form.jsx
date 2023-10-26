@@ -1,18 +1,15 @@
 "use client";
 
 import { useState } from "react";
-// import Modal from "./Modal";
 import axios from "axios";
 import { useRouter } from "next/navigation";
 
 const Form = () => {
-  const router = useRouter();
-
-  // const [modalOpen, setModalOpen] = useState(false);
-  // const [inputs, setInputs] = useState({});
   const [name, setName] = useState("");
   const [message, setMessage] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+
+  const router = useRouter();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -26,21 +23,8 @@ const Form = () => {
     router.refresh();
   };
 
-  // const handleChange = (e) => {
-  //   const name = e.target.name;
-  //   const value = e.target.value;
-  //   setInputs((prevState) => ({ ...prevState, [name]: value }));
-  // };
   return (
     <div>
-      {/* <button
-        onClick={() => setModalOpen(true)}
-        className="bg-blue-700 text-white p-3 cursor-pointer"
-      >
-        Add New Post
-      </button> */}
-
-      {/* <Modal modalOpen={modalOpen} setModalOpen={setModalOpen}> */}
       <form className="w-full">
         <div className="mb-6">
           <label
@@ -93,7 +77,6 @@ const Form = () => {
           </button>
         )}
       </form>
-      {/* </Modal> */}
     </div>
   );
 };

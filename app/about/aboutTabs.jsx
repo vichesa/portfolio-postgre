@@ -25,19 +25,6 @@ const tabs = [
         </div>
       </ul>
     ),
-    // [
-    //   "HTML + CSS",
-    //   "JavaScript",
-    //   "React Js",
-    //   "Next Js",
-    //   "Node Js",
-    //   "Mongo DB",
-    //   "GIT",
-    //   "Material UI",
-    //   "Tailwind",
-    //   "Ant Design",
-    //   "Bootstrap",
-    // ],
   },
   {
     tabActive: "educations",
@@ -48,11 +35,6 @@ const tabs = [
         <li>Fullstact Web Development Bootcamp at dibimbing.id</li>
       </ul>
     ),
-
-    // [
-    //   "Bachelor Degree of Astronomy, Institut Teknologi Bandung",
-    //   "Fullstact Web Development Bootcamp at dibimbing.id",
-    // ],
   },
   {
     tabActive: "achievements",
@@ -67,10 +49,6 @@ const tabs = [
         </li>
       </ul>
     ),
-    // [
-    //   "Deanlist of FMIPA ITB 2016",
-    //   "Top 5 students of Fillstact Web Development Bootcamp Batch 1 at dibimbing.id",
-    // ],
   },
 ];
 
@@ -102,22 +80,9 @@ const AboutTabs = () => {
           >
             {tab.tabName}
           </button>
-          //   <TabButton
-          //     key={index}
-          //     tabActive={tabActive === tab.tabActive}
-          //     handleTabActive={() => handleTabActive(tab.tabActive)}
-          //     tabName={tab.tabName}
-          //   />
         ))}
       </div>
-      <div className="mt-4 text-[#ADB7BE]">
-        {tabContent}
-        {/* <ul className="list-disc pl-5">
-          {tabContent.map((con, index) => (
-            <li key={index}>{con}</li>
-          ))}
-        </ul> */}
-      </div>
+      <div className="mt-4 text-[#ADB7BE]">{tabContent}</div>
     </div>
   );
 };

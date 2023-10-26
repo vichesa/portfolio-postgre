@@ -13,7 +13,6 @@ const projectData = [
       "The tutorial video playlist to learn HTML and CSS from basic to advance",
     imageUrl: "/images/projects/1.png",
     tag: ["All", "Video"],
-    // gitUrl: "https://github.com/vichesa/my-blog",
     previewUrl:
       "https://youtube.com/playlist?list=PL9Qmkn65ouWB3vKC9pPRRaz2LO_lnNgdx&si=Z2i2_M2W8yT9fgrf",
   },

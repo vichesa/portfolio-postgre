@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// import { Bars3Icon, XmarkIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -19,10 +18,6 @@ const Header = () => {
       label: "About",
       href: "/about",
     },
-    // {
-    //   label: "FAQ",
-    //   href: "/about/faq",
-    // },
     {
       label: "Projects",
       href: "/projects",

@@ -14,7 +14,6 @@ const MessageList = ({ messages }) => {
     "December",
   ];
 
-  // Fungsi untuk mengonversi format tanggal
   function formatDate(dateString) {
     const date = new Date(dateString);
     const day = date.getDate();
