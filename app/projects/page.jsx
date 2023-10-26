@@ -1,7 +1,7 @@
 "use client";
 import { useState, useTransition } from "react";
-import ProjectCard from "./ProjectCards";
-import ProjectTab from "./ProjectTab";
+import ProjectCard from "./projectCards";
+import ProjectTab from "./projectTab";
 
 const projectTag = ["All", "Web", "Mobile", "Video"];
 
