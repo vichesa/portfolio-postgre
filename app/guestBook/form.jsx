@@ -16,6 +16,7 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsLoading(true);
     await axios.post("api/guests", {
       name: name,
       message: message,

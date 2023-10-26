@@ -1,6 +1,6 @@
 "use client";
 
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -23,7 +23,7 @@ const Home = () => {
             <div className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-yellow-800">
               Hello, I'm
             </div>
-            <TypeAnimation
+            {/* <TypeAnimation
               className="text-white"
               sequence={[
                 // Same substring at the start will only be typed out once, initially
@@ -35,7 +35,7 @@ const Home = () => {
               wrapper="span"
               speed={50}
               repeat={Infinity}
-            />
+            /> */}
           </div>
           {/* <p className="text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-5">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet eum
