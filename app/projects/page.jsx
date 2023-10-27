@@ -19,11 +19,11 @@ const projectData = [
   {
     id: 2,
     title: "Next Js Portfolio",
-    description: "Bulid porfolio with Next Js, Mongo DB, and Prisma",
+    description: "Build porfolio with Next Js, PostgreSQL, and Prisma",
     imageUrl: "/images/projects/portfolio.PNG",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/vichesa/my-blog",
-    previewUrl: "https://www.youtube.com/watch?v=8RMGulQ8S_Y",
+    gitUrl: "https://github.com/vichesa/portfolio-postgre",
+    previewUrl: "https://portfolio-postgre.vercel.app/",
   },
   {
     id: 3,
@@ -51,7 +51,7 @@ const Projects = () => {
 
   return (
     <div>
-      <h2 className="text-4xl font-bold text-center ">My Projects</h2>
+      <h2 className="text-4xl font-bold text-center">My Projects</h2>
       <div className="flex flex-cols justify-center gap-4 mt-6">
         {projectTag.map((proj, index) => (
           <ProjectTab

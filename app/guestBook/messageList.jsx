@@ -23,7 +23,7 @@ const MessageList = ({ messages }) => {
   }
 
   return (
-    <div className="w-full h-[400px] border rounded-lg overflow-auto">
+    <div className="w-full max-h-[400px] border rounded-lg overflow-auto">
       <ul>
         {messages.map((message) => (
           <li
