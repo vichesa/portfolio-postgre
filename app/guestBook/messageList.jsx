@@ -23,17 +23,15 @@ const MessageList = ({ messages }) => {
   }
 
   return (
-    <div className="w-full max-h-[400px] border rounded-lg overflow-auto">
+    <div className="w-full max-h-[400px] border border-[#33353F] rounded-lg overflow-auto">
       <ul>
         {messages.map((message) => (
           <li
-            className="p-4 border-b last:border-b-0 bg-gray-200"
+            className="p-4 border-b last:border-b-0 border-[#33353F] bg-[#18191E]"
             key={message.id}
           >
-            <h1 className="text-xl font-semibold text-gray-800">
-              {message.name}
-            </h1>
-            <p className="text-gray-600">{message.message}</p>
+            <h1 className="text-xl font-semibold text-white">{message.name}</h1>
+            <p className="text-gray-100">{message.message}</p>
             <p className="text-sm text-right text-gray-400">
               {formatDate(message.createdAt)}
             </p>
