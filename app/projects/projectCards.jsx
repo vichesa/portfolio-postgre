@@ -3,9 +3,9 @@ import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 
 const ProjectCards = ({ imageUrl, title, description, gitUrl, previewUrl }) => {
   return (
-    <div>
+    <div className="relative group">
       <div
-        className="h-52 rounded-t-xl relative group"
+        className="h-52 rounded-t-xl  group-hover:bg-black group-hover:bg-opacity-70"
         style={{ background: `url(${imageUrl})`, backgroundSize: "cover" }}
       >
         <div className="overlay absolute gap-2 w-full h-full hidden group-hover:flex items-center justify-center left-0 top-0 group-hover:bg-black group-hover:bg-opacity-70">
