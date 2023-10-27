@@ -10,10 +10,9 @@ const About = () => {
           </h1>
           <p className="py-10 text-[#ADB7BE]">
             Hello, my name is Yolana Vichesa. I am a Web Developer. In 2019 I
-            completed my education at Institut Teknologi Bandung (ITB). I was
-            interested in working in the IT world, I then took the Web
-            Development Bootcamp program for 4 months and graduated with the
-            title of Top 5 Students.
+            completed my education at Institut Teknologi Bandung (ITB). In 2021
+            I took a Web Development Bootcamp program for 4 months and graduated
+            with the title of Top 5 Students.
           </p>
         </div>
         <div className="lg:ml-10">

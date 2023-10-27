@@ -17,18 +17,18 @@ const tabs = [
           <li>Node Js</li>
         </div>
         <div className="ml-12">
-          <li>Mongo DB</li>
+          <li>MongoDB</li>
+          <li>PostgreSQL</li>
           <li>GIT</li>
           <li>Material UI</li>
           <li>Ant Design</li>
-          <li>Bootstrap</li>
         </div>
       </ul>
     ),
   },
   {
-    tabActive: "educations",
-    tabName: "Educations",
+    tabActive: "education",
+    tabName: "Education",
     content: (
       <ul className="list-disc pl-5">
         <li>Bachelor Degree of Astronomy, Institut Teknologi Bandung</li>
